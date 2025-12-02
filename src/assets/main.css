@@ -1,0 +1,205 @@
+@tailwind base;
+@tailwind utilities;
+/* Header */
+.main-header {
+  width: 100%;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.logo-img {
+  height: 42px;
+  width: auto;
+}
+
+.logo-text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+/* Navigation */
+.nav-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-menu a {
+  font-size: 15px;
+  font-weight: 500;
+  color: #374151;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.nav-menu a:hover,
+.nav-menu .router-link-active {
+  color: #0057ff;
+}
+
+/* Footer */
+.main-footer {
+  background:#f9fafb;
+  padding: 22px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #4b5563;
+  margin-top: 40px;
+}
+/* STICKY HEADER WITH SHADOW & LEFT-ALIGNED LOGO */
+
+.uwsc-header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #ffffff;
+  padding: 12px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Full-width container; no centering with max-width/margin:auto */
+.uwsc-header-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;   /* make sure content hugs the left */
+  padding: 0 24px;               /* left/right inner padding */
+}
+
+/* Override any global img centering */
+.uwsc-logo {
+  height: 55px;
+  width: auto;
+  margin: 0;                    
+  cursor: pointer;
+}
+.applications-banner {
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-color: #0d47a1;
+  padding: 48px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* REMOVE rounded corners */
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+}
+
+.applications-banner-title {
+  color: white;
+  font-size: 42px;
+  font-weight: 800;
+  text-align: center;
+}
+
+html, body {
+  overflow-x: hidden !important;
+}
+.cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  max-width: 1400px;       /* controls total width */
+  margin: 0 auto;          /* center horizontally */
+  padding: 0 32px;         /* left/right margin inside */
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  align-items: center;     /* center vertically */
+  justify-content: space-between;
+  background: white;
+  padding: 24px 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+/* logo on the left */
+.card img {
+  height: 48px;
+  width: auto;
+  margin-right: 24px;
+}
+
+/* text centered vertically */
+.card .content {
+  flex: 1;
+  margin-left: 12px;
+  text-align: left;
+}
+
+/* button stable on the right */
+.card button {
+  white-space: nowrap;
+}
+.form-section-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 32px;
+  color: #0d47a1;
+}
+
+.form-grid {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-label {
+  font-size: 15px;
+  color: #374151;
+  font-weight: 500;
+}
+
+.form-input {
+  border: 1px solid #d1d5db;
+  padding: 10px 14px;
+  border-radius: 8px;
+  outline: none;
+}
+
+.form-checkbox {
+  width: 18px;
+  height: 18px;
+}
+
+.submit-button {
+  background-color: #0d47a1;
+  color: white;
+  padding: 14px 36px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #08357c;
+}
+
