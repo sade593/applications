@@ -1,15 +1,18 @@
 import { createRouter, createWebHistory } from "vue-router";
+import AuthLogin from "../pages/AuthLogin.vue";
+import AuthRegister from "../pages/AuthRegister.vue";
 import Home from "../pages/Home.vue";
-import Division from "../pages/Division.vue";
 
 const routes = [
-  { path: "/", component: Home },
-  { path: "/division", component: Division },
+  { path: "/", redirect: "/login" },   // FIRST PAGE = LOGIN
+
+  { path: "/login", component: AuthLogin },
+  { path: "/register", component: AuthRegister },
+
+  { path: "/home", component: Home },
 ];
 
-const router = createRouter({
+export default createRouter({
   history: createWebHistory(),
   routes,
 });
-
-export default router;

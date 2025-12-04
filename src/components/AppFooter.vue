@@ -8,17 +8,20 @@
 
             <div class="relative">
               <div class="relative">
-                <div class="relative bg-white rounded-3xl shadow-2xl p-2">
-                  <NuxtLink to="/" >
-                    <img 
-                      src="/wlogo.png" 
+                <!-- Bigger pill -->
+                <div class="inline-flex items-center bg-white rounded-3xl shadow-xl px-4 py-2">
+                  <NuxtLink to="/" class="flex items-center">
+                    <!-- Bigger logo -->
+                    <img
+                      src="/wlogo.png"
                       alt="Company Logo"
-                      class="w-auto"
-                    >
+                      class="h-14 w-auto block"
+                    />
                   </NuxtLink>
                 </div>
               </div>
             </div>
+
         
           
             
