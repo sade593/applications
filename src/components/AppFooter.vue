@@ -60,13 +60,13 @@
               </li>
             </ul>
             <div class="flex space-x-6 mt-3">
-              <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-800 transition">
+              <a href="https://www.facebook.com/WaterSupplyCompany" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-800 transition">
                 <i class="fab fa-facebook-f"></i>
               </a>
-              <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-800 transition">
+              <a href="https://www.linkedin.com/company/united-water-supply-company-of-georgia/?viewAsMember=true" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-800 transition">
                 <i class="fab fa-linkedin-in"></i>
               </a>
-              <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-800 transition">
+              <a href="https://www.youtube.com/@unitedwatersupplycompanyof3589" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-800 transition">
                 <i class="fab fa-youtube"></i>
               </a>
             </div>

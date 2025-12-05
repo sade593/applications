@@ -10,6 +10,11 @@ const routes = [
   { path: "/register", component: AuthRegister },
 
   { path: "/home", component: Home },
+   {
+    path: "/division",
+    name: "Division",
+    component: () => import("../pages/Division.vue"),
+  },
 ];
 
 export default createRouter({
